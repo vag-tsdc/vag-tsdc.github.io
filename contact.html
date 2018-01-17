@@ -5,13 +5,17 @@
   <meta charset="UTF-8">
   <title>Contact | Victoria Ashly Griggs</title>
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
 
   <!-- Custom styles & reset -->
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -64,61 +68,66 @@
 
 
   <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">VAG</a>
-
-      <!-- Section 1: Navbar-->
-      <nav class="navbar navbar-default">
-
-        <!-- Place Fluid Container in Navbar -->
-        <div class="container-fluid">
-
-          <!-- Designate a navbar heading -->
-          <div class="navbar-header">
-
-            <!-- Collapsible button -->
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-              aria-controls="navbar">
-
-              <!-- navbar button elements -->
-              <span class="sr-only"></span>
-              <span class="icon-bar"></span>
-              <!-- first line -->
-              <span class="icon-bar"></span>
-              <!-- second line -->
-              <span class="icon-bar"></span>
-            </button>
+      <div class="container">
+       
+  
+        <!-- Section 1: Navbar-->
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid"></div>
+  
+            <!-- Designate a navbar heading -->
+            <div class="navbar-header">
+  
+              <!-- Collapsible button -->
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <!-- navbar button elements -->
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+  
+  
+              <!-- for a logo / brand signature rather then VAG -->
+              <!-- <a class="navbar-brand"></a> -->
+         
+            </div>
 
             <!-- The links of our navbar -->
-            <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
+            <div class="navbar-collapse collapse" id="navbar">
+              <ul class="nav navbar-nav navbar right">
                 <li>
-                  <a href="index.html">About</a>
+                  <a href="index.html">
+                      <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                  </a>
                 </li>
                 <li>
-                  <a href="portfolio.html">Portfolio</a>
+                  <a href="portfolio.html">
+                      <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
+                  </a>
                 </li>
                 <li>
-                  <a href="photo-page/index.html">Photography</a>
+                  <a href="photo-page/index.html">
+                    <span class="glyphicon glyphicon-camera" aria-hidden="true"></span></a>
                 </li>
                 <li class="active">
-                  <a href="contact.html">Contact</a>
+                  <a href="contact.html">
+                      <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
+                  </a>
                 </li>
               </ul>
-
-
+  
+  
             </div>
             <!--/.nav-collapse -->
           </div>
           <!--/.container-fluid -->
-          </div>
-
-
-      </nav>
-
-
+  
+  
+        </nav>
+  
+  
       </div>
-  </header>
+    </header>
 
   <div id="main-container" class="container">
     <section class="main-section">
